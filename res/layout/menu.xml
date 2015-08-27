@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal|center_vertical"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:id="@+id/textError"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="51dp"
+        android:text="" />
+
+    <Button
+        android:id="@+id/buttonWarrior"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Warrior" />
+    
+    <Button
+        android:id="@+id/buttonShop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shop" />
+    
+    <Button
+        android:id="@+id/buttonArena"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Arena" />
+
+
+    
+</LinearLayout>
